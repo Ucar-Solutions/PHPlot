@@ -1,5 +1,5 @@
 {
-    "name": "phplot/phplot",
+    "name": "ucarsolutions/phplot",
     "description": "PHP graph library for dynamic scientific, business, and stock-market charts and graphs.",
     "type": "library",
     "require": {
