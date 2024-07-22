@@ -15,9 +15,9 @@
  *
  */
 
-namespace Phplot\Phplot;
+namespace UcarSolutions\Phplot;
 
-class phplot_truecolor extends phplot
+class phplot_truecolor extends Phplot
 {
     /**
      * Constructor: Sets up GD truecolor image resource, and initializes plot style controls

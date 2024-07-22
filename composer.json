@@ -1,20 +1,24 @@
 {
-    "name": "ucarsolutions/phplot",
-    "description": "PHP graph library for dynamic scientific, business, and stock-market charts and graphs.",
-    "type": "library",
-    "require": {
-        "ext-gd": "*"
+  "name": "ucarsolutions/phplot",
+  "description": "PHP graph library for dynamic scientific, business, and stock-market charts and graphs.",
+  "type": "library",
+  "require": {
+    "ext-gd": "*"
+  },
+  "license": "LGPL-2.1-or-later",
+  "autoload": {
+    "psr-4": {
+      "UcarSolutions\\Phplot\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "AJRepo",
+      "email": "AJRepo@users.noreply.github.com"
     },
-    "license": "LGPL-2.1-or-later",
-    "autoload": {
-        "psr-4": {
-            "Phplot\\Phplot\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "AJRepo",
-            "email": "AJRepo@users.noreply.github.com"
-        }
-    ]
+    {
+      "name": "Dogan Ucar",
+      "email": "dogan@dogan-ucar.de"
+    }
+  ]
 }

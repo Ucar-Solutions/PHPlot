@@ -3,22 +3,18 @@
 /**
  * PHPlot - A class for creating scientific and business graphs, charts, plots
  *
- * This file contains two PHP classes which are used to create graphs,
- * charts, and plots. The PHPlot class is the basic class which creates
- * indexed-color images, and the extended PHPlot_truecolor class creates
- * full-color (24-bit) images.
+ * The PHPlot class is the basic class which creates indexed-color images,
+ * and the extended PHPlot_truecolor class creates full-color (24-bit) images.
  * PHPlot currently requires PHP 5.3 or later.
  *
- * $Id$
- *
- * @version 8.0.0-rc1
+ * @version 1.0.0
  * @copyright 1998-2022 Afan Ottenheimer
  * @license GNU Lesser General Public License, version 2.1
- * @link https://github.com/AJRepo/PHPlot/ PHPlot Web Site with downloads, tracker, discussion
- * @link https://github.com/AJRepo/PHPlot/ PHPlot Project Web Site with links to documentation
+ * @link https://github.com/UcarSolutions/PHPlot/ PHPlot Fork GitHub repo
  * @author lbayuk (2006-2016) <lbayuk@users.sourceforge.net>
  * @author Miguel de Benito Delgado (co-author and maintainer, 2003-2005)
  * @author Afan Ottenheimer (1998-present)
+ * @author Dogan Ucar (Fork creator, 2024-present)
  */
 
 /*
@@ -58,14 +54,14 @@
  *
  */
 
-namespace Phplot\Phplot;
+namespace UcarSolutions\Phplot;
 
-class phplot
+class Phplot
 {
     /** PHPlot version constant as a string */
-    public const version = '8.0.0-rc1 $Revision$';
+    public const version = '1.0.0';
     /** PHPlot version constant as a number = major * 10000 + minor * 100 + patch */
-    public const version_id = 80000;
+    public const version_id = 10000;
 
     // All class variables are declared here, and initialized (if applicable).
     // Starting with PHPlot-6.0, most variables have 'protected' visibility
